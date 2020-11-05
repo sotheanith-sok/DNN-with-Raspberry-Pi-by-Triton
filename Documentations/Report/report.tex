@@ -9,19 +9,20 @@
 
     \title{Deep Neural Network with Raspberry Pies}
 
-    \author[1]{Lauro Cabral}
-    \author[1]{Sotheanith Sok}
-    \affil[1]{California State University of Long Beach\authorcr Email: {\tt \{lauro.cabral, sotheanith.sok\}@student.csulb.edu}\vspace{1.5ex}}
 
+    \author{
+        \IEEEauthorblockN{Lauro Cabral and Sotheanith Sok\\}
+        \IEEEauthorblockA{California State University, Long Beach\\ Email: \{lauro.cabral, sotheanith.sok\}@student.csubl.edu}
+    }
     \date{October 17 2020}
     \maketitle
 
     \begin{abstract}
         As the price of GPUs continues to increase, it has become increasingly difficult for average consumers to obtain the necessary hardware for experimenting with neural networks at home. Fortunately, it is possible to train a neural network through other means and this paper aims to explore the possibility of using distributed systems to do so. By combining dask, a highly efficient library for parallel computing, and raspberry pi, a relatively cheap single-board computer, it is possible to create a cluster of nodes that is fairly efficient at solving deep learning problems and with a high degree of scalability. Additionally, such a setup is also beneficial in terms of hardware flexibility as any raspberry pi node can be replaced with other hardware including an Intel-based system and an AMD based system without sacrificing the performance. Lastly, by using dask as the backend library, the current setup can be adapted to work with many popular deep learning libraries including Tensorflow and Scikit-learn with minimal code modification while maintaining a similar result.
-    \end{abstract}
+        \end{abstract}
 
     \section{Introduction}
-        In the last few years, the deep learning field has seen tremendous advancement that enables the creation of many life-changing technologies including autonomous driving, self-taught AI, and pattern recognition. This progress is only possible due to the availability of high-performance GPUs which excel at solving multiple floating pointing problems simultaneously. According to PassMark Software, a crowd-sourced GPU benchmark database, the current flagship GPU is approximately twenty-five thousand timers faster than the flagship GPU from 20 years ago\cite{passmark_software}. Unfortunately, as the interest in the deep learning field increases, so did the demand for high-performance flagship GPU and as such, the price of flagship GPU has increased exponentially. Today, the high-end flagship GPU is 4 times as expensive as the flagship GPU from 20 years ago \cite{passmark_software} and this price increase makes it difficult for average consumers to obtain necessary hardware for experimenting with the deep neural network at home. As such, this paper is intended to explore the possibility of using a distributed system of relatively cheap hardware to solve a deep learning problem. This paper will start by covering the history of deep learning including its initial hurdles, its rise, and the current obstacles. Then, the paper provides an overview of how deep learning works such as forward propagation and backward propagation and techniques for parallelizing deep learning problems. Furthermore, this paper will discuss the implementation of one of the parallelization techniques as well as its setup, advantages, and limitations. Finally, the last part of the paper will contain the authors’ thoughts, recommendations, and discussions on future works.
+        \IEEEPARstart{I}n the last few years, the deep learning field has seen tremendous advancement that enables the creation of many life-changing technologies including autonomous driving, self-taught AI, and pattern recognition. This progress is only possible due to the availability of high-performance GPUs which excel at solving multiple floating pointing problems simultaneously. According to PassMark Software, a crowd-sourced GPU benchmark database, the current flagship GPU is approximately twenty-five thousand timers faster than the flagship GPU from 20 years ago\cite{passmark_software}. Unfortunately, as the interest in the deep learning field increases, so did the demand for high-performance flagship GPU and as such, the price of flagship GPU has increased exponentially. Today, the high-end flagship GPU is 4 times as expensive as the flagship GPU from 20 years ago \cite{passmark_software} and this price increase makes it difficult for average consumers to obtain necessary hardware for experimenting with the deep neural network at home. As such, this paper is intended to explore the possibility of using a distributed system of relatively cheap hardware to solve a deep learning problem. This paper will start by covering the history of deep learning including its initial hurdles, its rise, and the current obstacles. Then, the paper provides an overview of how deep learning works such as forward propagation and backward propagation and techniques for parallelizing deep learning problems. Furthermore, this paper will discuss the implementation of one of the parallelization techniques as well as its setup, advantages, and limitations. Finally, the last part of the paper will contain the authors’ thoughts, recommendations, and discussions on future works.
     
     \section{History of Deep Learning}
         Since its initial conception in 1967 by Alexey Ivakhnenko, two major hurdles of applying deep neural networks in solving real-life problems are hardware limitations and data limitations. To start with, a majority of hardware designed at that time was focused on single-core performance because that is what a majority of applications required \cite{inproceedings}. Thus, there was no incentive for developing hardware that has more than a single core. Unfortunately, this single core focus hardware is terrible for solving neural network problems because each node in a layer has to be calculated linearly before it can proceed to the next layer. Second, since the internet wasn’t widespread at the time, any dataset that needed to train a neural network would need to be collected manually \cite{pew_research_center}. This process is prohibitively expensive and thus, good datasets are hard to come by. This hardware restriction and data constraint stifled any advancement in the field for many years to come.
@@ -49,7 +50,7 @@
     \section{Setup}
         (-Hardwares and Softwares used-)
 
-    \section{Result}
+    \section{Results}
         (-Discuss the result including scalabiity, cost, problem, ..etc.-)
 
     \section{Recommandations}
