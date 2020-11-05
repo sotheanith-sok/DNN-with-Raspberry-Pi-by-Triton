@@ -127,3 +127,5 @@ Documentations/Report/report.aux
 Documentations/Report/report.fdb_latexmk
 Documentations/Report/report.fls
 Documentations/Report/report.synctex.gz
+*.bbl
+*.blg
