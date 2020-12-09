@@ -1,22 +1,28 @@
-# DNN with Raspberry Pi
+<p align="center">
+ <img width="150" height="146" src="https://user-images.githubusercontent.com/13907836/51081445-7d0d9300-16a4-11e9-8e4d-6ccad8359bf8.png">
+</p>
+
+<h1 align="center">Deep Neural Network with Raspberry Pi <br> Team Triton </h1>
+
+ ## Description
  An implmentation and analysis of Raspberry Pis cluster in solving shallow and deep learning problems.
  ## Quick Links
-  - [Research paper]()
+  - [Research paper](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/blob/master/Research%20Paper/report.pdf)
   - [Demo with Scikit-Learn (GridSearchCV + SVC, Monte Carlo, RandomForest)]()
   - [Demo with Scikit-Learn + Tensorflow (Convolutional Neural Network)]()
   - [Demo with Scikit-Learn + Tensorflow (GridSearchCV + Fully Connected Neural Network)]()
   - [Video on how to setup the cluster]()
-  - [References]()
+  - [References](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/tree/master/References)
  ## Setup
   ### Software
-   - [Python]()
-   - [Dask]()
-   - [Dask-ML]()
-   - [JobLib]()
-   - [Scikit-Learn]()
-   - [Tensorflow]()
+   - [Python](https://www.python.org/)
+   - [Dask](https://dask.org/)
+   - [Dask-ML](https://ml.dask.org/)
+   - [JobLib](https://joblib.readthedocs.io/en/latest/)
+   - [Scikit-Learn](https://scikit-learn.org/stable/)
+   - [Tensorflow](https://www.tensorflow.org/)
   ### Hardware
-   - 4 x [Raspberry Pis]()
+   - 4 x [Raspberry Pis](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
    - 1 x Laptop
    - 1 x Desktop
    - 1 x Consumer-grade router
