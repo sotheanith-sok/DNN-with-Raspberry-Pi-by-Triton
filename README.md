@@ -1,22 +1,22 @@
 # DNN with Raspberry Pi
  An implmentation and analysis of Raspberry Pis cluster in solving shallow and deep learning problems.
  ## Quick Links
-  - Research paper
-  - Demo with Scikit-Learn (GridSearchCV + SVC, Monte Carlo, RandomForest)
-  - Demo with Scikit-Learn + Tensorflow (Convolutional Neural Network)
-  - Demo with Scikit-Learn + Tensorflow (GridSearchCV + Fully Connected Neural Network)
-  - Video on how to setup the cluster
-  - References
+  - [Research paper]()
+  - [Demo with Scikit-Learn (GridSearchCV + SVC, Monte Carlo, RandomForest)]()
+  - [Demo with Scikit-Learn + Tensorflow (Convolutional Neural Network)]()
+  - [Demo with Scikit-Learn + Tensorflow (GridSearchCV + Fully Connected Neural Network)]()
+  - [Video on how to setup the cluster]
+  - [References
  ## Setup
   ### Software
-   - Python
-   - Dask
-   - Dask-ML
-   - JobLib
-   - Scikit-Learn
-   - Tensorflow
+   - [Python]()
+   - [Dask]()
+   - [Dask-ML]()
+   - [JobLib]()
+   - [Scikit-Learn]()
+   - [Tensorflow]()
   ### Hardware
-   - 4 x Raspberry Pis
+   - 4 x [Raspberry Pis]()
    - 1 x Laptop
    - 1 x Desktop
    - 1 x Consumer-grade router
