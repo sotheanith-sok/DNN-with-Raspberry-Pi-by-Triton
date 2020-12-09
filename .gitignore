@@ -123,9 +123,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-Documentations/Report/report.aux
-Documentations/Report/report.fdb_latexmk
-Documentations/Report/report.fls
-Documentations/Report/report.synctex.gz
+Research Paper/report.aux
+Research Paper/report.fdb_latexmk
+Research Paper/report.fls
+Research Paper/report.synctex.gz
 *.bbl
 *.blg
