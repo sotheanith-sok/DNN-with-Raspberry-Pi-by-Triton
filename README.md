@@ -1,4 +1,10 @@
-# DNN with Raspberry Pi
+<p align="center">
+ <img width="150" height="146" src="https://user-images.githubusercontent.com/13907836/51081445-7d0d9300-16a4-11e9-8e4d-6ccad8359bf8.png">
+</p>
+
+<h1 align="center">Deep Neural Network with Raspberry Pi <br> Team Triton </h1>
+
+ ## Description
  An implmentation and analysis of Raspberry Pis cluster in solving shallow and deep learning problems.
  ## Quick Links
   - [Research paper](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/blob/master/Research%20Paper/report.pdf)
