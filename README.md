@@ -1,7 +1,7 @@
 # DNN with Raspberry Pi
  An implmentation and analysis of Raspberry Pis cluster in solving shallow and deep learning problems.
  ## Quick Links
-  - [Research paper]()
+  - [Research paper](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/blob/master/Research%20Paper/report.pdf)
   - [Demo with Scikit-Learn (GridSearchCV + SVC, Monte Carlo, RandomForest)]()
   - [Demo with Scikit-Learn + Tensorflow (Convolutional Neural Network)]()
   - [Demo with Scikit-Learn + Tensorflow (GridSearchCV + Fully Connected Neural Network)]()
