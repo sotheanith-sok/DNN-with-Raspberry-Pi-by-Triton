@@ -5,8 +5,8 @@
   - [Demo with Scikit-Learn (GridSearchCV + SVC, Monte Carlo, RandomForest)]()
   - [Demo with Scikit-Learn + Tensorflow (Convolutional Neural Network)]()
   - [Demo with Scikit-Learn + Tensorflow (GridSearchCV + Fully Connected Neural Network)]()
-  - [Video on how to setup the cluster]
-  - [References
+  - [Video on how to setup the cluster]()
+  - [References]()
  ## Setup
   ### Software
    - [Python]()
