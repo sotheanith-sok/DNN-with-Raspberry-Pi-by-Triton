@@ -118,18 +118,19 @@
             \caption{Hardware and Software stack}  
         \end{figure}
             
-        The hardware stack consists of 4 Raspberry Pis, a laptop, a desktop, and a consumer-grade router and all nodes are connected to the router with ethernet cables in order to limit the inter-node communication latency. To start with, the desktop and the laptop contribute 7 computing cores each and 12 and 10 gigabytes of memories respectively to the cluster while the desktop also provides a single core as the scheduler. Then, there are 4 Raspberry Pis which contribute 4 computing cores and 2 gigabytes of memories each to the cluster. In total, the cluster will have up to 30 computing cores and 30 gigabytes of memories.
+        The hardware stack consists of 4 Raspberry Pis, a laptop, a desktop, and a consumer-grade router and all nodes are connected to the router with ethernet cables in order to limit the inter-node communication latency. To start with, the desktop and the laptop contribute 7 computing cores each and 9 and 13 gigabytes of memories respectively to the cluster while the desktop also provides a single core as the scheduler. Then, there are 4 Raspberry Pis which contribute 4 computing cores and 2 gigabytes of memories each to the cluster. In total, the cluster will have up to 30 computing cores and 30 gigabytes of memories.
 
-        \begin{table*}[]
-            \begin{tabular}{|l|l|l|l|l|}
+        \begin{table*}[!htbp]
+            \centering%
+            \begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{4cm}|p{4.5cm}|p{2cm}|}
             \hline
-            {\ul \textbf{Hardware}}                   & {\ul \textbf{Cores Count}} & {\ul \textbf{Ideal Execution Time (seconds)}} & {\ul \textbf{Measured Execution Time (seconds)}} & {\ul \textbf{Scalability}} \\ \hline
-            1 x Raspberry Pi                          & 4                          & 901                                           & 901                                              & 1                          \\ \hline
-            1 x Raspberry Pi, 1 x Desktop             & 11                         & 327.6363636                                   & 237                                              & 1.382431914                \\ \hline
-            2 x Raspberry Pi, 1 x Desktop             & 15                         & 240.2666667                                   & 181                                              & 1.327440147                \\ \hline
-            3 x Raspberry Pi, 1 x Desktop             & 19                         & 189.6842105                                   & 152                                              & 1.247922438                \\ \hline
-            4 x Raspberry Pi, 1 x Desktop             & 23                         & 156.6956522                                   & 134                                              & 1.169370539                \\ \hline
-            4 x Raspberry Pi, 1 x Desktop, 1 x Laptop & 30                         & 120.1333333                                   & 124                                              & 0.968817204                \\ \hline
+            \centering{ \ul \textbf{Hardware}}        & \centering{\ul \textbf{Computing Cores}} & \centering{\ul \textbf{Memory (GB)}} & \centering{\ul \textbf{Ideal Execution Time (seconds)}} & \centering{\ul \textbf{Measured Execution Time (seconds)}} & {\centering{\ul \textbf{Scalability}}} \\ \hline
+            1 x Raspberry Pi                          & 4                                        & 2                                    & 901                                                     & 901                                                        & 1                                      \\ \hline
+            1 x Raspberry Pi, 1 x Desktop             & 11                                       & 11.21                                & 327.6363636                                             & 237                                                        & 1.382431914                            \\ \hline
+            2 x Raspberry Pi, 1 x Desktop             & 15                                       & 13.14                                & 240.2666667                                             & 181                                                        & 1.327440147                            \\ \hline
+            3 x Raspberry Pi, 1 x Desktop             & 19                                       & 15.08                                & 189.6842105                                             & 152                                                        & 1.247922438                            \\ \hline
+            4 x Raspberry Pi, 1 x Desktop             & 23                                       & 17.02                                & 156.6956522                                             & 134                                                        & 1.169370539                            \\ \hline
+            4 x Raspberry Pi, 1 x Desktop, 1 x Laptop & 30                                       & 29.57                                & 120.1333333                                             & 124                                                        & 0.968817204                            \\ \hline
             \end{tabular}
             \caption{Ideal execution time vs actual execution time for clusters training Random Forest Classifier}
         \end{table*}
