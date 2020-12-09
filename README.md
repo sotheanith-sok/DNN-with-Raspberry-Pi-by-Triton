@@ -11,7 +11,7 @@
   - [Demo with Scikit-Learn (GridSearchCV + SVC, Monte Carlo, RandomForest)]()
   - [Demo with Scikit-Learn + Tensorflow (Convolutional Neural Network)]()
   - [Demo with Scikit-Learn + Tensorflow (GridSearchCV + Fully Connected Neural Network)]()
-  - [Video on how to setup the cluster]()
+  - [Guide: How to setup the cluster](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/blob/master/HowToSetup.pdf)
   - [References](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/tree/master/References)
  ## Setup
   ### Software
