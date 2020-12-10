@@ -40,5 +40,5 @@
     - Email  : Lauro.Cabral@student.csulb.edu
     - Github : https://github.com/Lauro199471
   - Sotheanith Sok
-    - Email  : sotheanith.sok@student.csulb.edu
+    - Email  : Sotheanith.Sok@student.csulb.edu
     - Github : https://github.com/sotheanith
