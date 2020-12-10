@@ -22,7 +22,7 @@
    - [Scikit-Learn](https://scikit-learn.org/stable/)
    - [Tensorflow](https://www.tensorflow.org/)
   ### Hardware
-   - 4 x [Raspberry Pis](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
+   - 4 x [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
    - 1 x Laptop
    - 1 x Desktop
    - 1 x Consumer-grade router
