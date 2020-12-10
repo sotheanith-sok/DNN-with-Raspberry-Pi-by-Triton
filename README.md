@@ -8,9 +8,9 @@
  An implmentation and analysis of Raspberry Pis cluster in solving shallow and deep learning problems.
  ## Quick Links
   - [Research paper](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/blob/master/Research%20Paper/report.pdf)
-  - [Demo with Scikit-Learn (GridSearchCV + SVC, Monte Carlo, RandomForest)]()
-  - [Demo with Scikit-Learn + Tensorflow (Convolutional Neural Network)]()
-  - [Demo with Scikit-Learn + Tensorflow (GridSearchCV + Fully Connected Neural Network)]()
+  - [Demo with Scikit-Learn (GridSearchCV + SVC, Monte Carlo, RandomForest)](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/blob/master/Demo/Dash%20Demo.ipynb)
+  - [Demo with Scikit-Learn + Tensorflow (Convolutional Neural Network)](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/blob/master/Demo/Demo2.ipynb)
+  - [Demo with Scikit-Learn + Tensorflow (GridSearchCV + Fully Connected Neural Network)](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/blob/master/Demo/Keras%20Deep%20Learning%20Models%20with%20Scikit-Learn%20in%20Python.ipynb)
   - [Guide: How to setup the cluster](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/blob/master/HowToSetup.pdf)
   - [References](https://github.com/sotheanith/DNN-with-Raspberry-Pi-by-Triton/tree/master/References)
  ## Setup
