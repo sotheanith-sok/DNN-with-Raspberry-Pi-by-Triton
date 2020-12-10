@@ -26,7 +26,7 @@
    - 1 x Laptop
    - 1 x Desktop
    - 1 x Consumer-grade router
- ## Cluster Sizes Testing (using RandomForest)
+ ## Results for various size cluster used to train Random Forest Classifier
   Hardware                               | Computing Cores | Memory (GB) | Ideal Execution Time (seconds) | Execution Times (seconds) | Scalability 
   -------------------------------------- | --------------- | ----------- | ------------------------------ | ------------------------- | -----------
   1 x Raspberry Pi                       | 4               | 2           | 901                            | 901                       | 1            
