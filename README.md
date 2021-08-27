@@ -42,3 +42,5 @@
   - Sotheanith Sok
     - Email  : Sotheanith.Sok@student.csulb.edu
     - Github : https://github.com/sotheanith
+ ## Course
+ - [CECS 574 - Distributed Computing](http://catalog.csulb.edu/preview_course_nopop.php?catoid=5&coid=40048)
