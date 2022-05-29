@@ -36,11 +36,7 @@
   4 x Raspberry, 1 x Desktop             | 23              | 17.02       | 156.6956522                    | 134                       | 1.169370539            
   4 x Raspberry, 1 x Desktop, 1 x Laptop | 30              | 29.57       | 120.1333333                    | 124                       | 0.968817204
  ## Authors
-  - Lauro Cabral
-    - Email  : Lauro.Cabral@student.csulb.edu
-    - Github : https://github.com/Lauro199471
-  - Sotheanith Sok
-    - Email  : Sotheanith.Sok@student.csulb.edu
-    - Github : https://github.com/sotheanith
+  - [Lauro Cabral](https://github.com/Lauro199471)
+  - [Sotheanith Sok](https://github.com/sotheanith-sok)
  ## Course
  - [CECS 574 - Distributed Computing](http://catalog.csulb.edu/preview_course_nopop.php?catoid=5&coid=40048)
